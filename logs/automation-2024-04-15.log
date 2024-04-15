@@ -1,0 +1,58 @@
+12:57:30.076 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on Hotel Navbar
+12:57:33.433 [main] INFO  testScenario.TC_001_HotelSearchPage - City is Selected
+12:57:34.230 [main] INFO  testScenario.TC_001_HotelSearchPage - CheckOut Date is Selected.
+12:57:34.522 [main] INFO  testScenario.TC_001_HotelSearchPage - Added Travellers Upto 4
+12:57:40.211 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on SearchButton.
+12:57:40.579 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on UserRating.
+12:57:55.554 [main] INFO  testScenario.TC_001_HotelSearchPage - All Aminites is Selected.
+12:58:02.786 [main] INFO  testScenario.TC_001_HotelSearchPage - Hotel is Displayed.
+12:58:12.286 [main] INFO  testScenario.TC_002_CruisePage - Pointing to More
+12:58:13.762 [main] INFO  testScenario.TC_002_CruisePage - Cruise is selected.
+12:58:15.120 [main] INFO  testScenario.TC_002_CruisePage - Clicked on ReadMore.
+12:58:15.259 [main] INFO  testScenario.TC_002_CruisePage - Inclusion Points is Printed.
+12:58:23.772 [main] INFO  testScenario.TC_003_GiftPage - Pointing to More.
+12:58:25.254 [main] INFO  testScenario.TC_003_GiftPage - Gift is Selected.
+12:58:25.499 [main] INFO  testScenario.TC_003_GiftPage - Redirected to Gift Voucher Page.
+12:58:27.970 [main] INFO  testScenario.TC_003_GiftPage - Phone number is printed.
+12:58:29.499 [main] INFO  testScenario.TC_003_GiftPage - Email is is printed.
+14:16:45.545 [main] INFO  testScenario.TC_001_HotelSearchPage - ********** TC_HotelSearchPage Test Start ******************
+14:16:45.692 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on Hotel Navbar
+14:16:49.015 [main] INFO  testScenario.TC_001_HotelSearchPage - City is Selected
+14:16:49.635 [main] INFO  testScenario.TC_001_HotelSearchPage - CheckOut Date is Selected.
+14:16:49.844 [main] INFO  testScenario.TC_001_HotelSearchPage - Added Travellers Upto 4
+14:16:56.042 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on SearchButton.
+14:16:56.296 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on UserRating.
+14:17:11.063 [main] INFO  testScenario.TC_001_HotelSearchPage - All Aminites is Selected.
+14:17:18.317 [main] INFO  testScenario.TC_001_HotelSearchPage - Hotel is Displayed.
+14:17:51.731 [main] INFO  testScenario.TC_002_CruisePage - Pointing to More
+14:17:52.800 [main] INFO  testScenario.TC_002_CruisePage - Cruise is selected.
+14:17:53.887 [main] INFO  testScenario.TC_002_CruisePage - Clicked on ReadMore.
+14:17:54.269 [main] INFO  testScenario.TC_002_CruisePage - Inclusion Points is Printed.
+14:18:06.167 [main] INFO  testScenario.TC_003_GiftPage - Pointing to More.
+14:18:07.883 [main] INFO  testScenario.TC_003_GiftPage - Gift is Selected.
+14:18:08.087 [main] INFO  testScenario.TC_003_GiftPage - Redirected to Gift Voucher Page.
+14:18:10.209 [main] INFO  testScenario.TC_003_GiftPage - Phone number is printed.
+14:18:11.783 [main] INFO  testScenario.TC_003_GiftPage - Email is is printed.
+14:21:19.107 [main] INFO  testScenario.TC_001_HotelSearchPage - ********** TC_HotelSearchPage Test Start ******************
+14:21:19.258 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on Hotel Navbar
+14:21:22.471 [main] INFO  testScenario.TC_001_HotelSearchPage - City is Selected
+14:21:23.051 [main] INFO  testScenario.TC_001_HotelSearchPage - CheckOut Date is Selected.
+14:21:23.208 [main] INFO  testScenario.TC_001_HotelSearchPage - Added Travellers Upto 4
+14:21:28.617 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on SearchButton.
+14:21:28.919 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on UserRating.
+14:21:41.758 [main] INFO  testScenario.TC_001_HotelSearchPage - All Aminites is Selected.
+14:21:48.897 [main] INFO  testScenario.TC_001_HotelSearchPage - Hotel is Displayed.
+14:21:58.345 [main] INFO  testScenario.TC_002_CruisePage - Pointing to More
+14:21:59.671 [main] INFO  testScenario.TC_002_CruisePage - Cruise is selected.
+14:22:00.646 [main] INFO  testScenario.TC_002_CruisePage - Clicked on ReadMore.
+14:22:00.960 [main] INFO  testScenario.TC_002_CruisePage - Inclusion Points is Printed.
+14:22:09.207 [main] INFO  testScenario.TC_003_GiftPage - Pointing to More.
+14:22:10.467 [main] INFO  testScenario.TC_003_GiftPage - Gift is Selected.
+14:22:11.038 [main] INFO  testScenario.TC_003_GiftPage - Redirected to Gift Voucher Page.
+14:22:13.528 [main] INFO  testScenario.TC_003_GiftPage - Phone number is printed.
+14:22:15.061 [main] INFO  testScenario.TC_003_GiftPage - Email is is printed.
+14:22:25.987 [main] INFO  testScenario.TC_001_HotelSearchPage - ********** TC_HotelSearchPage Test Start ******************
+14:22:26.146 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on Hotel Navbar
+14:22:29.613 [main] INFO  testScenario.TC_001_HotelSearchPage - City is Selected
+14:22:30.882 [main] INFO  testScenario.TC_001_HotelSearchPage - CheckOut Date is Selected.
+14:22:31.438 [main] INFO  testScenario.TC_001_HotelSearchPage - Added Travellers Upto 4
