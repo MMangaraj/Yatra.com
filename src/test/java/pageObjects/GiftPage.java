@@ -58,9 +58,13 @@ public class GiftPage extends BasePage {
 			driver.switchTo().window(window);
 	}
 	
+	public void scrolltocorporte() {
+		js.executeScript("arguments[0].scrollIntoView();",scrolltoform);
+		
+	}
+	
 	public void checkForPhoneToolTip() throws InterruptedException {
 		
-		js.executeScript("arguments[0].scrollIntoView();",scrolltoform);
 		action.moveToElement(phone).build().perform();
 
 		name.sendKeys("Rushikesh");

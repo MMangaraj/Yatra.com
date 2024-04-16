@@ -21,6 +21,8 @@ public class TC_003_GiftPage extends BaseClass{
 		try {
 			GP.switchToGiftVoucher(driver);
 			logger.info("Redirected to Gift Voucher Page.");
+			GP.scrolltocorporte();
+			logger.info("Scroll to corporate queries");
 			GP.checkForPhoneToolTip();
 			logger.info("Phone number is printed.");
 			GP.checkForEmailToolTip();

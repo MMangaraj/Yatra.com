@@ -8,8 +8,8 @@
   <parameter name="browser" value="chrome"/>
     <classes>
      <class name="testScenario.TC_001_HotelSearchPage"/> 
-    <class name="testScenario.TC_002_CruisePage"/>
-    <class name="testScenario.TC_003_GiftPage"/>
+     <class name="testScenario.TC_002_CruisePage"/>
+     <class name="testScenario.TC_003_GiftPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

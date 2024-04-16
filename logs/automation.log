@@ -1,12 +1,6 @@
-14:22:38.070 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on SearchButton.
-14:22:38.366 [main] INFO  testScenario.TC_001_HotelSearchPage - Clicked on UserRating.
-14:22:51.276 [main] INFO  testScenario.TC_001_HotelSearchPage - Hotel is Displayed.
-14:23:02.029 [main] INFO  testScenario.TC_002_CruisePage - Pointing to More
-14:23:02.998 [main] INFO  testScenario.TC_002_CruisePage - Cruise is selected.
-14:23:04.971 [main] INFO  testScenario.TC_002_CruisePage - Clicked on ReadMore.
-14:23:05.245 [main] INFO  testScenario.TC_002_CruisePage - Inclusion Points is Printed.
-14:23:15.689 [main] INFO  testScenario.TC_003_GiftPage - Pointing to More.
-14:23:17.362 [main] INFO  testScenario.TC_003_GiftPage - Gift is Selected.
-14:23:17.466 [main] INFO  testScenario.TC_003_GiftPage - Redirected to Gift Voucher Page.
-14:23:19.632 [main] INFO  testScenario.TC_003_GiftPage - Phone number is printed.
-14:23:21.117 [main] INFO  testScenario.TC_003_GiftPage - Email is is printed.
+20:32:51.775 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+20:32:53.409 [main] INFO  stepDefinition.Hooks - User Clicked on the Gift Voucher from the List
+20:32:53.779 [main] INFO  stepDefinition.Hooks - User is On GiftVoucher Page
+20:32:54.442 [main] INFO  stepDefinition.Hooks - User Scroll to the Corporate Queries
+20:32:56.360 [main] INFO  stepDefinition.Hooks - Display the Email Error Message
+20:32:57.764 [main] INFO  stepDefinition.Hooks - Display the Phone Error Message

@@ -1,0 +1,60 @@
+17:50:49.069 [main] INFO  stepDefinition.Hooks - ----------------------------------
+17:50:49.075 [main] INFO  stepDefinition.Hooks - ----- Hotel Search Test Case Starts ------
+17:50:49.075 [main] INFO  stepDefinition.Hooks - ----------------------------------
+17:50:49.075 [main] INFO  stepDefinition.Hooks - User is On Yatra.com Page
+17:50:49.314 [main] INFO  stepDefinition.Hooks - User Clicked on the Hotel Navbar
+17:50:55.581 [main] INFO  stepDefinition.Hooks - User Entered the Location
+17:50:56.200 [main] INFO  stepDefinition.Hooks - User Pickup the Checkout Date
+17:50:56.423 [main] INFO  stepDefinition.Hooks - User add 4 Pepoles
+17:51:01.766 [main] INFO  stepDefinition.Hooks - User Clicked on the Search Button
+17:51:02.039 [main] INFO  stepDefinition.Hooks - User Clicked on the User Rating
+17:51:07.221 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeWifi Checkbox
+17:51:11.157 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeBreakFast Checkbox
+17:51:15.602 [main] INFO  stepDefinition.Hooks - User Clicked on the Swimmingpool Checkbox
+17:51:19.826 [main] INFO  stepDefinition.Hooks - User Clicked on the laundryfacilites Checkbox
+17:51:26.905 [main] INFO  stepDefinition.Hooks - Displayed the Top 3 Hotels
+17:51:35.992 [main] INFO  stepDefinition.Hooks - ----------------------------------
+17:51:35.992 [main] INFO  stepDefinition.Hooks - ----------- CruisePage Test case Starts -----------
+17:51:35.992 [main] INFO  stepDefinition.Hooks - ----------------------------------
+17:51:35.992 [main] INFO  stepDefinition.Hooks - User is on the Home Page
+17:51:35.992 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+17:51:37.199 [main] INFO  stepDefinition.Hooks - User Click on the Cruise 
+17:51:37.200 [main] INFO  stepDefinition.Hooks - User Click on the One Cruise Line
+17:51:38.185 [main] INFO  stepDefinition.Hooks - Display the all Inclusion Points 
+17:51:46.523 [main] INFO  stepDefinition.Hooks - ----------------------------------
+17:51:46.523 [main] INFO  stepDefinition.Hooks - ------------ Gift Page Test Case Starts  ------------
+17:51:46.523 [main] INFO  stepDefinition.Hooks - ----------------------------------
+17:51:46.523 [main] INFO  stepDefinition.Hooks - User is on the Home Page
+17:51:46.523 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+17:51:47.840 [main] INFO  stepDefinition.Hooks - User Clicked on the Gift Voucher from the List
+17:51:48.140 [main] INFO  stepDefinition.Hooks - User is On GiftVoucher Page
+17:51:48.790 [main] INFO  stepDefinition.Hooks - User Scroll to the Corporate Queries
+17:51:50.821 [main] INFO  stepDefinition.Hooks - Display the Email Error Message
+17:51:52.189 [main] INFO  stepDefinition.Hooks - Display the Phone Error Message
+20:31:54.538 [main] INFO  stepDefinition.Hooks - ----------------------------------
+20:31:54.550 [main] INFO  stepDefinition.Hooks - ----- Hotel Search Test Case Starts ------
+20:31:54.550 [main] INFO  stepDefinition.Hooks - ----------------------------------
+20:31:54.551 [main] INFO  stepDefinition.Hooks - User is On Yatra.com Page
+20:31:54.740 [main] INFO  stepDefinition.Hooks - User Clicked on the Hotel Navbar
+20:32:01.211 [main] INFO  stepDefinition.Hooks - User Entered the Location
+20:32:02.008 [main] INFO  stepDefinition.Hooks - User Pickup the Checkout Date
+20:32:02.343 [main] INFO  stepDefinition.Hooks - User add 4 Pepoles
+20:32:04.187 [main] INFO  stepDefinition.Hooks - User Clicked on the Search Button
+20:32:07.035 [main] INFO  stepDefinition.Hooks - User Clicked on the User Rating
+20:32:11.346 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeWifi Checkbox
+20:32:15.331 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeBreakFast Checkbox
+20:32:19.930 [main] INFO  stepDefinition.Hooks - User Clicked on the Swimmingpool Checkbox
+20:32:24.285 [main] INFO  stepDefinition.Hooks - User Clicked on the laundryfacilites Checkbox
+20:32:31.375 [main] INFO  stepDefinition.Hooks - Displayed the Top 3 Hotels
+20:32:41.331 [main] INFO  stepDefinition.Hooks - ----------------------------------
+20:32:41.331 [main] INFO  stepDefinition.Hooks - ----------- CruisePage Test case Starts -----------
+20:32:41.331 [main] INFO  stepDefinition.Hooks - ----------------------------------
+20:32:41.331 [main] INFO  stepDefinition.Hooks - User is on the Home Page
+20:32:41.332 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+20:32:42.455 [main] INFO  stepDefinition.Hooks - User Click on the Cruise 
+20:32:42.456 [main] INFO  stepDefinition.Hooks - User Click on the One Cruise Line
+20:32:43.723 [main] INFO  stepDefinition.Hooks - Display the all Inclusion Points 
+20:32:51.774 [main] INFO  stepDefinition.Hooks - ----------------------------------
+20:32:51.775 [main] INFO  stepDefinition.Hooks - ------------ Gift Page Test Case Starts  ------------
+20:32:51.775 [main] INFO  stepDefinition.Hooks - ----------------------------------
+20:32:51.775 [main] INFO  stepDefinition.Hooks - User is on the Home Page
