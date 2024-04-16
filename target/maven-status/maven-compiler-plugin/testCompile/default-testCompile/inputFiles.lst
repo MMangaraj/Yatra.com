@@ -3,7 +3,12 @@ C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\pageObjects\Cruise
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\pageObjects\GiftPage.java
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\pageObjects\HomePage.java
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\pageObjects\HotelPage.java
+C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\stepDefinition\Hooks.java
+C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\stepDefinition\StepsforCruisePage.java
+C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\stepDefinition\StepsforGiftPage.java
+C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\stepDefinition\StepsforHotelSearch.java
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\testBase\BaseClass.java
+C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\testRunner\TestRunner.java
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\testScenario\TC_001_HotelSearchPage.java
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\testScenario\TC_002_CruisePage.java
 C:\Users\2327258\eclipse-workspace\YatraProject\src\test\java\testScenario\TC_003_GiftPage.java

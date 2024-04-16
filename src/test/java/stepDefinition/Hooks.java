@@ -10,6 +10,8 @@ import java.util.Map;
 import java.util.Properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,7 +21,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Hooks {
@@ -85,5 +89,14 @@ public class Hooks {
 		driver.quit();
 	}
 	
+    @AfterStep
+    public void addScreenshot(Scenario scenario) {
+    	// this is for cucumber junit report
+        if(scenario.isFailed()) {
+        	TakesScreenshot ts=(TakesScreenshot) driver;
+        	byte[] screenshot=ts.getScreenshotAs(OutputType.BYTES);
+        	scenario.attach(screenshot, "image/png",scenario.getName());
+        }
+    }
 }
 

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-15T14:16:33 IST" name="Suite" finished-at="2024-04-15T14:18:14 IST" duration-ms="101258">
+  <suite started-at="2024-04-16T22:05:10 IST" name="Suite" finished-at="2024-04-16T22:06:22 IST" duration-ms="71597">
     <groups>
     </groups>
-    <test started-at="2024-04-15T14:16:33 IST" name="Test" finished-at="2024-04-15T14:18:14 IST" duration-ms="101258">
+    <test started-at="2024-04-16T22:05:10 IST" name="Test" finished-at="2024-04-16T22:06:22 IST" duration-ms="71597">
       <class name="testScenario.TC_002_CruisePage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_002_CruisePage@36902638]" started-at="2024-04-15T14:17:21 IST" name="setup" finished-at="2024-04-15T14:17:51 IST" duration-ms="30197" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:05:48 IST" name="setup" finished-at="2024-04-16T22:05:56 IST" duration-ms="7706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickoncruise()[pri:1, instance:testScenario.TC_002_CruisePage@36902638]" started-at="2024-04-15T14:17:51 IST" name="clickoncruise" finished-at="2024-04-15T14:17:53 IST" duration-ms="2316" status="PASS">
+        <test-method signature="clickoncruise()[pri:1, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:05:56 IST" name="clickoncruise" finished-at="2024-04-16T22:06:04 IST" duration-ms="8363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickoncruise -->
-        <test-method signature="printallInclusion()[pri:2, instance:testScenario.TC_002_CruisePage@36902638]" started-at="2024-04-15T14:17:53 IST" name="printallInclusion" finished-at="2024-04-15T14:17:54 IST" depends-on-methods="testScenario.TC_002_CruisePage.clickoncruise" duration-ms="379" status="PASS">
+        <test-method signature="printallInclusion()[pri:2, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:06:04 IST" name="printallInclusion" finished-at="2024-04-16T22:06:04 IST" depends-on-methods="testScenario.TC_002_CruisePage.clickoncruise" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printallInclusion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_002_CruisePage@36902638]" started-at="2024-04-15T14:17:54 IST" name="tearDown" finished-at="2024-04-15T14:17:56 IST" duration-ms="2706" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:06:04 IST" name="tearDown" finished-at="2024-04-16T22:06:07 IST" duration-ms="2429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScenario.TC_002_CruisePage -->
       <class name="testScenario.TC_001_HotelSearchPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_001_HotelSearchPage@3a93b025]" started-at="2024-04-15T14:16:33 IST" name="setup" finished-at="2024-04-15T14:16:45 IST" duration-ms="11950" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:10 IST" name="setup" finished-at="2024-04-16T22:05:17 IST" duration-ms="7072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,29 +43,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickonHotel()[pri:1, instance:testScenario.TC_001_HotelSearchPage@3a93b025]" started-at="2024-04-15T14:16:45 IST" name="clickonHotel" finished-at="2024-04-15T14:16:45 IST" duration-ms="154" status="PASS">
+        <test-method signature="clickonHotel()[pri:1, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:17 IST" name="clickonHotel" finished-at="2024-04-16T22:05:18 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickonHotel -->
-        <test-method signature="selectHotel()[pri:2, instance:testScenario.TC_001_HotelSearchPage@3a93b025]" started-at="2024-04-15T14:16:45 IST" name="selectHotel" finished-at="2024-04-15T14:16:56 IST" depends-on-methods="testScenario.TC_001_HotelSearchPage.clickonHotel" duration-ms="10328" status="PASS">
+        <test-method signature="selectHotel()[pri:2, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:18 IST" name="selectHotel" finished-at="2024-04-16T22:05:25 IST" depends-on-methods="testScenario.TC_001_HotelSearchPage.clickonHotel" duration-ms="6807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectHotel -->
-        <test-method signature="selectallaminites()[pri:3, instance:testScenario.TC_001_HotelSearchPage@3a93b025]" started-at="2024-04-15T14:16:56 IST" name="selectallaminites" finished-at="2024-04-15T14:17:11 IST" duration-ms="15019" status="PASS">
+        <test-method signature="selectallaminites()[pri:3, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:25 IST" name="selectallaminites" finished-at="2024-04-16T22:05:38 IST" duration-ms="13689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectallaminites -->
-        <test-method signature="displayhotels()[pri:4, instance:testScenario.TC_001_HotelSearchPage@3a93b025]" started-at="2024-04-15T14:17:11 IST" name="displayhotels" finished-at="2024-04-15T14:17:18 IST" duration-ms="7252" status="PASS">
+        <test-method signature="displayhotels()[pri:4, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:38 IST" name="displayhotels" finished-at="2024-04-16T22:05:45 IST" duration-ms="7097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayhotels -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_001_HotelSearchPage@3a93b025]" started-at="2024-04-15T14:17:18 IST" name="tearDown" finished-at="2024-04-15T14:17:21 IST" duration-ms="3055" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:45 IST" name="tearDown" finished-at="2024-04-16T22:05:48 IST" duration-ms="2617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScenario.TC_001_HotelSearchPage -->
       <class name="testScenario.TC_003_GiftPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_003_GiftPage@223d2c72]" started-at="2024-04-15T14:17:56 IST" name="setup" finished-at="2024-04-15T14:18:05 IST" duration-ms="9010" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:07 IST" name="setup" finished-at="2024-04-16T22:06:13 IST" duration-ms="6825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,15 +76,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ClickonGift()[pri:1, instance:testScenario.TC_003_GiftPage@223d2c72]" started-at="2024-04-15T14:18:05 IST" name="ClickonGift" finished-at="2024-04-15T14:18:07 IST" duration-ms="1895" status="PASS">
+        <test-method signature="ClickonGift()[pri:1, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:13 IST" name="ClickonGift" finished-at="2024-04-16T22:06:15 IST" duration-ms="1381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickonGift -->
-        <test-method signature="filldetails()[pri:2, instance:testScenario.TC_003_GiftPage@223d2c72]" started-at="2024-04-15T14:18:07 IST" name="filldetails" finished-at="2024-04-15T14:18:11 IST" depends-on-methods="testScenario.TC_003_GiftPage.ClickonGift" duration-ms="3896" status="PASS">
+        <test-method signature="filldetails()[pri:2, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:15 IST" name="filldetails" finished-at="2024-04-16T22:06:19 IST" depends-on-methods="testScenario.TC_003_GiftPage.ClickonGift" duration-ms="4568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filldetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_003_GiftPage@223d2c72]" started-at="2024-04-15T14:18:11 IST" name="tearDown" finished-at="2024-04-15T14:18:14 IST" duration-ms="2707" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:19 IST" name="tearDown" finished-at="2024-04-16T22:06:22 IST" duration-ms="2166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

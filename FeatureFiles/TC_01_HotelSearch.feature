@@ -1,5 +1,6 @@
 Feature: Display Hotels Name
 
+  @smoke @regression
   Scenario: Display Hotels Name
     Given User click on Hotel Navbar
     When User Enter the Hotel Loaction

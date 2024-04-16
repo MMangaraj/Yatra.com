@@ -9,7 +9,9 @@
     <classes>
       <class name="testScenario.TC_001_HotelSearchPage">
         <methods>
+          <include name="selectHotel"/>
           <include name="tearDown"/>
+          <include name="clickonHotel"/>
           <include name="setup"/>
           <include name="selectallaminites"/>
         </methods>
