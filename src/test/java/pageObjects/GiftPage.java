@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 
@@ -9,14 +10,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.ExcelUtility;
+
 public class GiftPage extends BasePage {
 	WebDriver driver;
 	Actions action;
 	JavascriptExecutor js;
+	ExcelUtility excelutility;
 	public GiftPage(WebDriver driver) {
 		super(driver);
 		action = new Actions(driver);
 		js  = (JavascriptExecutor) driver;
+		excelutility = new ExcelUtility();
 		
 	}
 	@FindBy(xpath = "//span[@class='more-arr']")
@@ -63,12 +68,12 @@ public class GiftPage extends BasePage {
 		
 	}
 	
-	public void checkForPhoneToolTip() throws InterruptedException {
+	public void checkForPhoneToolTip() throws InterruptedException, IOException {
 		
 		action.moveToElement(phone).build().perform();
 
-		name.sendKeys("Rushikesh");
-		phone.sendKeys("3456");
+		name.sendKeys(excelutility.getCellData("Sheet1", 1, 0));
+		phone.sendKeys(excelutility.getCellData("Sheet1", 1, 1));
 		js.executeScript("arguments[0].click();", submit);
 //		submit.click();
 		Thread.sleep(1000);
@@ -77,14 +82,14 @@ public class GiftPage extends BasePage {
 
 	}
 
-	public void checkForEmailToolTip() throws InterruptedException {
+	public void checkForEmailToolTip() throws InterruptedException, IOException {
 		action.moveToElement(phone).build().perform();
 		name.clear();
-		name.sendKeys("Rushikesh");
+		name.sendKeys(excelutility.getCellData("Sheet1", 2, 0));
 		phone.clear();
-		phone.sendKeys("9321187756");
+		phone.sendKeys(excelutility.getCellData("Sheet1", 2, 1));
 		email.clear();
-		email.sendKeys("123@abc");
+		email.sendKeys(excelutility.getCellData("Sheet1", 2, 2));
 		js.executeScript("arguments[0].click();", submit);
 //		submit.click();
 		Thread.sleep(1000);

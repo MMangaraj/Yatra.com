@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 16 22:05:10 IST 2024</td>
+<td>Started on:</td><td>Wed Apr 17 15:29:59 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71597 ms)</td>
+<tr><td>Total time:</td><td>78 seconds (78192 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,70 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display Hotels Name", "Display Hotels Name"</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -&gt; xpath: //div[@class=&apos;full filter-wrapper accordion-wrappper accordion-anim-1&apos;]//label]
+Session ID: f29c7577027cc5b0491671dfef424bb7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at pageObjects.HotelPage.selectlaundryfacilites(HotelPage.java:84)
+	at stepDefinition.StepsforHotelSearch.user_click_on_all_amenities(StepsforHotelSearch.java:82)
+	at ?.User Click on all amenities(file:///C:/Users/2327258/eclipse-workspace/YatraProject/./FeatureFiles/TC_01_HotelSearch.feature:11)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1622047986", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1622047986'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -&gt; xpath: //div[@class=&apos;full filter-wrapper accordion-wrappper accordion-anim-1&apos;]//label]
+Session ID: f29c7577027cc5b0491671dfef424bb7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at pageObjects.HotelPage.selectlaundryfacilites(HotelPage.java:84)
+	at stepDefinition.StepsforHotelSearch.user_click_on_all_amenities(StepsforHotelSearch.java:82)
+	at ?.User Click on all amenities(file:///C:/Users/2327258/eclipse-workspace/YatraProject/./FeatureFiles/TC_01_HotelSearch.feature:11)
+</pre></div></td>
+<td>43</td>
+<td>testRunner.TestRunner@4218d6a3</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,45 +140,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScenario.TC_001_HotelSearchPage.selectHotel()'><b>selectHotel</b><br>Test class: testScenario.TC_001_HotelSearchPage</td>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Capture the Error Message and Display", "Verify the Email id and phone Number"</td>
 <td></td>
-<td>6</td>
-<td>testScenario.TC_001_HotelSearchPage@459e9125</td></tr>
+<td>19</td>
+<td>testRunner.TestRunner@4218d6a3</td></tr>
 <tr>
-<td title='testScenario.TC_003_GiftPage.filldetails()'><b>filldetails</b><br>Test class: testScenario.TC_003_GiftPage</td>
-<td></td>
-<td>4</td>
-<td>testScenario.TC_003_GiftPage@a1153bc</td></tr>
-<tr>
-<td title='testScenario.TC_002_CruisePage.printallInclusion()'><b>printallInclusion</b><br>Test class: testScenario.TC_002_CruisePage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_002_CruisePage@7b2bbc3</td></tr>
-<tr>
-<td title='testScenario.TC_001_HotelSearchPage.clickonHotel()'><b>clickonHotel</b><br>Test class: testScenario.TC_001_HotelSearchPage</td>
-<td></td>
-<td>0</td>
-<td>testScenario.TC_001_HotelSearchPage@459e9125</td></tr>
-<tr>
-<td title='testScenario.TC_002_CruisePage.clickoncruise()'><b>clickoncruise</b><br>Test class: testScenario.TC_002_CruisePage</td>
-<td></td>
-<td>8</td>
-<td>testScenario.TC_002_CruisePage@7b2bbc3</td></tr>
-<tr>
-<td title='testScenario.TC_001_HotelSearchPage.displayhotels()'><b>displayhotels</b><br>Test class: testScenario.TC_001_HotelSearchPage</td>
-<td></td>
-<td>7</td>
-<td>testScenario.TC_001_HotelSearchPage@459e9125</td></tr>
-<tr>
-<td title='testScenario.TC_003_GiftPage.ClickonGift()'><b>ClickonGift</b><br>Test class: testScenario.TC_003_GiftPage</td>
-<td></td>
-<td>1</td>
-<td>testScenario.TC_003_GiftPage@a1153bc</td></tr>
-<tr>
-<td title='testScenario.TC_001_HotelSearchPage.selectallaminites()'><b>selectallaminites</b><br>Test class: testScenario.TC_001_HotelSearchPage</td>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Pick one Cruise Line", "Pick one Cruise line and Retrieve all the Inclusion points"</td>
 <td></td>
 <td>13</td>
-<td>testScenario.TC_001_HotelSearchPage@459e9125</td></tr>
+<td>testRunner.TestRunner@4218d6a3</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,94 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T22:05:10 IST" name="Suite" finished-at="2024-04-16T22:06:22 IST" duration-ms="71597">
+  <suite started-at="2024-04-17T15:29:59 IST" name="Suite" finished-at="2024-04-17T15:31:17 IST" duration-ms="78192">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4218d6a3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-16T22:05:10 IST" name="Test" finished-at="2024-04-16T22:06:22 IST" duration-ms="71597">
-      <class name="testScenario.TC_002_CruisePage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:05:48 IST" name="setup" finished-at="2024-04-16T22:05:56 IST" duration-ms="7706" status="PASS">
+    <test started-at="2024-04-17T15:29:59 IST" name="Test" finished-at="2024-04-17T15:31:17 IST" duration-ms="78192">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@4218d6a3]" started-at="2024-04-17T15:29:59 IST" name="setUpClass" finished-at="2024-04-17T15:30:00 IST" duration-ms="947" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[org.testng.TestRunner@758311ed]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickoncruise()[pri:1, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:05:56 IST" name="clickoncruise" finished-at="2024-04-16T22:06:04 IST" duration-ms="8363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickoncruise -->
-        <test-method signature="printallInclusion()[pri:2, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:06:04 IST" name="printallInclusion" finished-at="2024-04-16T22:06:04 IST" depends-on-methods="testScenario.TC_002_CruisePage.clickoncruise" duration-ms="146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printallInclusion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_002_CruisePage@7b2bbc3]" started-at="2024-04-16T22:06:04 IST" name="tearDown" finished-at="2024-04-16T22:06:07 IST" duration-ms="2429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScenario.TC_002_CruisePage -->
-      <class name="testScenario.TC_001_HotelSearchPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:10 IST" name="setup" finished-at="2024-04-16T22:05:17 IST" duration-ms="7072" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4218d6a3]" started-at="2024-04-17T15:30:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T15:30:44 IST" duration-ms="43582" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA["Display Hotels Name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Display Hotels Name"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
+Session ID: f29c7577027cc5b0491671dfef424bb7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
+Session ID: f29c7577027cc5b0491671dfef424bb7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at pageObjects.HotelPage.selectlaundryfacilites(HotelPage.java:84)
+at stepDefinition.StepsforHotelSearch.user_click_on_all_amenities(StepsforHotelSearch.java:82)
+at ✽.User Click on all amenities(file:///C:/Users/2327258/eclipse-workspace/YatraProject/./FeatureFiles/TC_01_HotelSearch.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4218d6a3]" started-at="2024-04-17T15:30:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T15:30:57 IST" duration-ms="13418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pick one Cruise Line"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pick one Cruise line and Retrieve all the Inclusion points"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickonHotel()[pri:1, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:17 IST" name="clickonHotel" finished-at="2024-04-16T22:05:18 IST" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickonHotel -->
-        <test-method signature="selectHotel()[pri:2, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:18 IST" name="selectHotel" finished-at="2024-04-16T22:05:25 IST" depends-on-methods="testScenario.TC_001_HotelSearchPage.clickonHotel" duration-ms="6807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectHotel -->
-        <test-method signature="selectallaminites()[pri:3, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:25 IST" name="selectallaminites" finished-at="2024-04-16T22:05:38 IST" duration-ms="13689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectallaminites -->
-        <test-method signature="displayhotels()[pri:4, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:38 IST" name="displayhotels" finished-at="2024-04-16T22:05:45 IST" duration-ms="7097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- displayhotels -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_001_HotelSearchPage@459e9125]" started-at="2024-04-16T22:05:45 IST" name="tearDown" finished-at="2024-04-16T22:05:48 IST" duration-ms="2617" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScenario.TC_001_HotelSearchPage -->
-      <class name="testScenario.TC_003_GiftPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:07 IST" name="setup" finished-at="2024-04-16T22:06:13 IST" duration-ms="6825" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@4218d6a3]" started-at="2024-04-17T15:30:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-17T15:31:17 IST" duration-ms="19784" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA["Capture the Error Message and Display"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify the Email id and phone Number"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="ClickonGift()[pri:1, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:13 IST" name="ClickonGift" finished-at="2024-04-16T22:06:15 IST" duration-ms="1381" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@4218d6a3]" started-at="2024-04-17T15:31:17 IST" name="tearDownClass" finished-at="2024-04-17T15:31:17 IST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickonGift -->
-        <test-method signature="filldetails()[pri:2, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:15 IST" name="filldetails" finished-at="2024-04-16T22:06:19 IST" depends-on-methods="testScenario.TC_003_GiftPage.ClickonGift" duration-ms="4568" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filldetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.TC_003_GiftPage@a1153bc]" started-at="2024-04-16T22:06:19 IST" name="tearDown" finished-at="2024-04-16T22:06:22 IST" duration-ms="2166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScenario.TC_003_GiftPage -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

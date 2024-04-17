@@ -1,5 +1,7 @@
 package stepDefinition;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.en.*;
@@ -43,14 +45,14 @@ public class StepsforGiftPage {
 	}
 
 	@Then("User fill the Deatils")
-	public void user_fill_the_deatils() throws InterruptedException {
+	public void user_fill_the_deatils() throws InterruptedException, IOException {
 		Gp.checkForEmailToolTip();
 		Hooks.getLogger().info("Display the Email Error Message");
 	   
 	}
 
 	@Then("Display the Error Message")
-	public void display_the_error_message() throws InterruptedException {
+	public void display_the_error_message() throws InterruptedException, IOException {
 		Gp.checkForPhoneToolTip();
 		Hooks.getLogger().info("Display the Phone Error Message");
 	    

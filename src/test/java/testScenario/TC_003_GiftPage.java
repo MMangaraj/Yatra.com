@@ -1,5 +1,7 @@
 package testScenario;
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
 import pageObjects.GiftPage;
@@ -17,7 +19,7 @@ public class TC_003_GiftPage extends BaseClass{
 		logger.info("Gift is Selected.");
 	}
 	@Test(priority = 2,dependsOnMethods= {"ClickonGift"})
-	public void filldetails() {
+	public void filldetails() throws IOException {
 		try {
 			GP.switchToGiftVoucher(driver);
 			logger.info("Redirected to Gift Voucher Page.");

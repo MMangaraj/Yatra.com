@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="72.559" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="78.937" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\2327258\.cache\selenium\chromedriver\win64\120.0.6099.109\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\2327258\AppData\Local\Temp\surefire6776324141956919670\surefirebooter-20240416220509165_3.jar C:\Users\2327258\AppData\Local\Temp\surefire6776324141956919670 2024-04-16T22-05-08_761-jvmRun1 surefire-20240416220509165_1tmp surefire_0-20240416220509165_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\2327258\AppData\Local\Temp\surefire1268276644072418574\surefirebooter-20240417152958184_3.jar C:\Users\2327258\AppData\Local\Temp\surefire1268276644072418574 2024-04-17T15-29-57_692-jvmRun1 surefire-20240417152958184_1tmp surefire_0-20240417152958184_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\2327258\eclipse-workspace\YatraProject\target\test-classes;C:\Users\2327258\eclipse-workspace\YatraProject\target\classes;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\2327258\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2327258\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2327258\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2327258\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2327258\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2327258\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2327258\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\2327258\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\2327258\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\2327258\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\2327258\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\2327258\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\2327258\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\2327258\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2327258\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\2327258\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\2327258\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\2327258\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2327258\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2327258\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2327258\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2327258\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2327258\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2327258\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2327258\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\2327258\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\2327258\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2327258\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2327258\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2327258\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\2327258\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2327258\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2327258\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2327258\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2327258\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2327258\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2327258\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2327258\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\2327258\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2327258\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2327258\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2327258\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2327258\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2327258\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2327258\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2327258\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2327258\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\2327258\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\2327258\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\2327258\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\2327258\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\2327258\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\2327258\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2327258\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2327258\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2327258\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\2327258\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\2327258\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\2327258\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2327258\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\2327258\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2327258\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2327258\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2327258\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2327258\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2327258\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2327258\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2327258\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2327258\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2327258\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2327258\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2327258\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2327258\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2327258\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2327258\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2327258\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2327258\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2327258\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2327258\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2327258\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\2327258\AppData\Local\Temp\surefire6776324141956919670\surefirebooter-20240416220509165_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2327258\AppData\Local\Temp\surefire1268276644072418574\surefirebooter-20240417152958184_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS"/>
@@ -59,45 +59,167 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="clickonHotel" classname="testScenario.TC_001_HotelSearchPage" time="0.364">
-    <system-out><![CDATA[clicked on hotels
+  <testcase name="runScenario[&quot;Display Hotels Name&quot;, &quot;Display Hotels Name&quot;](1)" classname="testRunner.TestRunner" time="43.6">
+    <failure message="stale element reference: stale element not found&#10;  (Session info: chrome=120.0.6099.130)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -&gt; xpath: //div[@class=&apos;full filter-wrapper accordion-wrappper accordion-anim-1&apos;]//label]&#10;Session ID: f29c7577027cc5b0491671dfef424bb7" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
+Session ID: f29c7577027cc5b0491671dfef424bb7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at pageObjects.HotelPage.selectlaundryfacilites(HotelPage.java:84)
+	at stepDefinition.StepsforHotelSearch.user_click_on_all_amenities(StepsforHotelSearch.java:82)
+	at ✽.User Click on all amenities(file:///C:/Users/2327258/eclipse-workspace/YatraProject/./FeatureFiles/TC_01_HotelSearch.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+@smoke @regression
+Scenario: Display Hotels Name                                             &amp#27;[90m# FeatureFiles/TC_01_HotelSearch.feature:4&amp#27;[0m
+clicked on hotels
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser click on Hotel Navbar&amp#27;[0m                                        &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_click_on_hotel_navbar()&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 598266 bytes]
+
+Pune is selected
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser Enter the Hotel Loaction&amp#27;[0m                                      &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_enter_the_hotel_loaction()&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 634551 bytes]
+
+Check-in Date : 2024-04-18
+Check-out Date : 2024-04-22
+checkout date selected
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser pickup the checkout date after five days from tomorrow's date&amp#27;[0m &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_pickup_the_checkout_date_after_five_days_from_tomorrow_s_date()&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 638246 bytes]
+
+clicked on traveller drop down
+2 traveller added
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser add four People&amp#27;[0m                                                &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_add_four_people()&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 630684 bytes]
+
+clicked on search button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Click on Search buttton&amp#27;[0m                                        &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_click_on_search_buttton()&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 57400 bytes]
+
+clicked on user rating
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser Click on the user rating&amp#27;[0m                                      &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_click_on_the_user_rating()&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 180490 bytes]
+
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mUser Click on all amenities&amp#27;[0m                                         &amp#27;[90m# stepDefinition.StepsforHotelSearch.user_click_on_all_amenities()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f29c7577027cc5b0491671dfef424bb7, getElementText {id=ACA21D715BC7091D90D001003B3185D5_element_582}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59950/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f29c7577027cc5b0491671dfef424bb7)] -> xpath: //div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label]
+Session ID: f29c7577027cc5b0491671dfef424bb7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at pageObjects.HotelPage.selectlaundryfacilites(HotelPage.java:84)
+	at stepDefinition.StepsforHotelSearch.user_click_on_all_amenities(StepsforHotelSearch.java:82)
+	at âœ½.User Click on all amenities(file:///C:/Users/2327258/eclipse-workspace/YatraProject/./FeatureFiles/TC_01_HotelSearch.feature:11)
+&amp#27;[0m
+
+    Embedding Display Hotels Name [image/png 368210 bytes]
+
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mDisplay the top &amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m hotels from the hotel list&amp#27;[0m                       &amp#27;[90m# stepDefinition.StepsforHotelSearch.display_the_top_hotels_from_the_hotel_list(java.lang.Integer)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="selectHotel" classname="testScenario.TC_001_HotelSearchPage" time="6.787">
-    <system-out><![CDATA[pune is selected
-Check-in Date : 2024-04-17
-Check-out Date : 2024-04-21
-checkout date selected
-clicked on traveller drop down
-2 traveller added
-clicked on search button
-]]></system-out>
-  </testcase>
-  <testcase name="selectallaminites" classname="testScenario.TC_001_HotelSearchPage" time="13.69">
-    <system-out><![CDATA[clicked on user rating
-]]></system-out>
-  </testcase>
-  <testcase name="displayhotels" classname="testScenario.TC_001_HotelSearchPage" time="7.098">
-    <system-out><![CDATA[Hotel Name : Radisson Blu Hinjawadi Pune
-Price : ₹12,27,000
-]]></system-out>
-  </testcase>
-  <testcase name="clickoncruise" classname="testScenario.TC_002_CruisePage" time="8.363"/>
-  <testcase name="printallInclusion" classname="testScenario.TC_002_CruisePage" time="0.149">
-    <system-out><![CDATA[INCLUSION
+  <testcase name="runScenario[&quot;Pick one Cruise Line&quot;, &quot;Pick one Cruise line and Retrieve all the Inclusion points&quot;](2)" classname="testRunner.TestRunner" time="13.377">
+    <system-out><![CDATA[
+@regression
+Scenario: Pick one Cruise Line                             &amp#27;[90m# FeatureFiles/TC_02_CruisePage.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is mouse over on the +more in the navbar menu&amp#27;[0m &amp#27;[90m# stepDefinition.StepsforCruisePage.user_is_mouse_over_on_the_more_in_the_navbar_menu()&amp#27;[0m
+
+    Embedding Pick one Cruise Line [image/png 535616 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select the curise on the list&amp#27;[0m                  &amp#27;[90m# stepDefinition.StepsforCruisePage.user_select_the_curise_on_the_list()&amp#27;[0m
+
+    Embedding Pick one Cruise Line [image/png 525821 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser Click on the one Cruise Line&amp#27;[0m                   &amp#27;[90m# stepDefinition.StepsforCruisePage.user_click_on_the_one_cruise_line()&amp#27;[0m
+
+    Embedding Pick one Cruise Line [image/png 257779 bytes]
+
+INCLUSION
 2 Nights Cruise Accommodation
 Meals (as specified in the itinerary)
 Onboard Entertainment & Activities.(Some onboard activities and entertainment are chargeable)
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDisplay the all Inclusion Point of the cruise&amp#27;[0m       &amp#27;[90m# stepDefinition.StepsforCruisePage.display_the_all_inclusion_point_of_the_cruise()&amp#27;[0m
+
+    Embedding Pick one Cruise Line [image/png 529582 bytes]
+
 ]]></system-out>
   </testcase>
-  <testcase name="ClickonGift" classname="testScenario.TC_003_GiftPage" time="1.381"/>
-  <testcase name="filldetails" classname="testScenario.TC_003_GiftPage" time="4.568">
-    <system-out><![CDATA[Phone number error message : Please enter mobile number
+  <testcase name="runScenario[&quot;Capture the Error Message and Display&quot;, &quot;Verify the Email id and phone Number&quot;](3)" classname="testRunner.TestRunner" time="19.783">
+    <system-out><![CDATA[
+@regression
+Scenario: Capture the Error Message and Display            &amp#27;[90m# FeatureFiles/TC_03_GiftPage.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is mouse over on the +more icon in the NavBar&amp#27;[0m &amp#27;[90m# stepDefinition.StepsforGiftPage.user_is_mouse_over_on_the_more_icon_in_the_nav_bar()&amp#27;[0m
+
+    Embedding Capture the Error Message and Display [image/png 535616 bytes]
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser is click on the Gift Voucher&amp#27;[0m                   &amp#27;[90m# stepDefinition.StepsforGiftPage.user_is_click_on_the_gift_voucher()&amp#27;[0m
+
+    Embedding Capture the Error Message and Display [image/png 623254 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser navigate to the Gift Voucher page&amp#27;[0m              &amp#27;[90m# stepDefinition.StepsforGiftPage.user_navigate_to_the_gift_voucher_page()&amp#27;[0m
+
+    Embedding Capture the Error Message and Display [image/png 255188 bytes]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser Scroll to corporate queries&amp#27;[0m                    &amp#27;[90m# stepDefinition.StepsforGiftPage.user_scroll_to_corporate_queries()&amp#27;[0m
+
+    Embedding Capture the Error Message and Display [image/png 56466 bytes]
+
 Email error message : Please enter your valid email id
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser fill the Deatils&amp#27;[0m                                &amp#27;[90m# stepDefinition.StepsforGiftPage.user_fill_the_deatils()&amp#27;[0m
+
+    Embedding Capture the Error Message and Display [image/png 65065 bytes]
+
+Phone number error message : Please enter mobile number
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mDisplay the Error Message&amp#27;[0m                           &amp#27;[90m# stepDefinition.StepsforGiftPage.display_the_error_message()&amp#27;[0m
+
+    Embedding Capture the Error Message and Display [image/png 66710 bytes]
+
 ]]></system-out>
   </testcase>
 </testsuite>

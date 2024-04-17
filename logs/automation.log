@@ -1,34 +1,39 @@
-22:18:35.750 [main] INFO  stepDefinition.Hooks - Display the Phone Error Message
-22:27:48.058 [main] INFO  stepDefinition.Hooks - ----------------------------------
-22:27:48.063 [main] INFO  stepDefinition.Hooks - ----- Hotel Search Test Case Starts ------
-22:27:48.063 [main] INFO  stepDefinition.Hooks - ----------------------------------
-22:27:48.063 [main] INFO  stepDefinition.Hooks - User is On Yatra.com Page
-22:27:48.242 [main] INFO  stepDefinition.Hooks - User Clicked on the Hotel Navbar
-22:27:54.801 [main] INFO  stepDefinition.Hooks - User Entered the Location
-22:27:55.556 [main] INFO  stepDefinition.Hooks - User Pickup the Checkout Date
-22:27:55.816 [main] INFO  stepDefinition.Hooks - User add 4 Pepoles
-22:27:57.982 [main] INFO  stepDefinition.Hooks - User Clicked on the Search Button
-22:27:59.113 [main] INFO  stepDefinition.Hooks - User Clicked on the User Rating
-22:28:03.619 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeWifi Checkbox
-22:28:07.846 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeBreakFast Checkbox
-22:28:12.602 [main] INFO  stepDefinition.Hooks - User Clicked on the Swimmingpool Checkbox
-22:28:17.134 [main] INFO  stepDefinition.Hooks - User Clicked on the laundryfacilites Checkbox
-22:28:24.249 [main] INFO  stepDefinition.Hooks - Displayed the Top 3 Hotels
-22:28:34.110 [main] INFO  stepDefinition.Hooks - ----------------------------------
-22:28:34.110 [main] INFO  stepDefinition.Hooks - ----------- CruisePage Test case Starts -----------
-22:28:34.110 [main] INFO  stepDefinition.Hooks - ----------------------------------
-22:28:34.111 [main] INFO  stepDefinition.Hooks - User is on the Home Page
-22:28:34.111 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
-22:28:35.391 [main] INFO  stepDefinition.Hooks - User Click on the Cruise 
-22:28:35.392 [main] INFO  stepDefinition.Hooks - User Click on the One Cruise Line
-22:28:37.222 [main] INFO  stepDefinition.Hooks - Display the all Inclusion Points 
-22:28:46.658 [main] INFO  stepDefinition.Hooks - ----------------------------------
-22:28:46.658 [main] INFO  stepDefinition.Hooks - ------------ Gift Page Test Case Starts  ------------
-22:28:46.658 [main] INFO  stepDefinition.Hooks - ----------------------------------
-22:28:46.658 [main] INFO  stepDefinition.Hooks - User is on the Home Page
-22:28:46.658 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
-22:28:48.261 [main] INFO  stepDefinition.Hooks - User Clicked on the Gift Voucher from the List
-22:28:48.553 [main] INFO  stepDefinition.Hooks - User is On GiftVoucher Page
-22:28:49.628 [main] INFO  stepDefinition.Hooks - User Scroll to the Corporate Queries
-22:28:51.186 [main] INFO  stepDefinition.Hooks - Display the Email Error Message
-22:28:52.540 [main] INFO  stepDefinition.Hooks - Display the Phone Error Message
+15:27:09.820 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:27:09.833 [main] INFO  stepDefinition.Hooks - User is on the Home Page
+15:27:09.833 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+15:27:15.989 [main] INFO  stepDefinition.Hooks - User Clicked on the Gift Voucher from the List
+15:27:16.836 [main] INFO  stepDefinition.Hooks - User is On GiftVoucher Page
+15:27:18.357 [main] INFO  stepDefinition.Hooks - User Scroll to the Corporate Queries
+15:27:20.963 [main] INFO  stepDefinition.Hooks - Display the Email Error Message
+15:27:22.643 [main] INFO  stepDefinition.Hooks - Display the Phone Error Message
+15:30:09.229 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:30:09.234 [main] INFO  stepDefinition.Hooks - ----- Hotel Search Test Case Starts ------
+15:30:09.234 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:30:09.235 [main] INFO  stepDefinition.Hooks - User is On Yatra.com Page
+15:30:09.528 [main] INFO  stepDefinition.Hooks - User Clicked on the Hotel Navbar
+15:30:16.374 [main] INFO  stepDefinition.Hooks - User Entered the Location
+15:30:17.679 [main] INFO  stepDefinition.Hooks - User Pickup the Checkout Date
+15:30:18.330 [main] INFO  stepDefinition.Hooks - User add 4 Pepoles
+15:30:21.306 [main] INFO  stepDefinition.Hooks - User Clicked on the Search Button
+15:30:22.207 [main] INFO  stepDefinition.Hooks - User Clicked on the User Rating
+15:30:27.688 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeWifi Checkbox
+15:30:31.959 [main] INFO  stepDefinition.Hooks - User Clicked on the FreeBreakFast Checkbox
+15:30:37.407 [main] INFO  stepDefinition.Hooks - User Clicked on the Swimmingpool Checkbox
+15:30:51.262 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:30:51.263 [main] INFO  stepDefinition.Hooks - ----------- CruisePage Test case Starts -----------
+15:30:51.263 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:30:51.263 [main] INFO  stepDefinition.Hooks - User is on the Home Page
+15:30:51.263 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+15:30:52.657 [main] INFO  stepDefinition.Hooks - User Click on the Cruise 
+15:30:52.997 [main] INFO  stepDefinition.Hooks - User Click on the One Cruise Line
+15:30:55.303 [main] INFO  stepDefinition.Hooks - Display the all Inclusion Points 
+15:31:05.477 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:31:05.478 [main] INFO  stepDefinition.Hooks - ------------ Gift Page Test Case Starts  ------------
+15:31:05.478 [main] INFO  stepDefinition.Hooks - ----------------------------------
+15:31:05.478 [main] INFO  stepDefinition.Hooks - User is on the Home Page
+15:31:05.478 [main] INFO  stepDefinition.Hooks - User Mouse over on the +more 
+15:31:07.073 [main] INFO  stepDefinition.Hooks - User Clicked on the Gift Voucher from the List
+15:31:08.157 [main] INFO  stepDefinition.Hooks - User is On GiftVoucher Page
+15:31:09.746 [main] INFO  stepDefinition.Hooks - User Scroll to the Corporate Queries
+15:31:12.597 [main] INFO  stepDefinition.Hooks - Display the Email Error Message
+15:31:14.363 [main] INFO  stepDefinition.Hooks - Display the Phone Error Message
