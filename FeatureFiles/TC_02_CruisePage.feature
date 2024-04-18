@@ -1,4 +1,7 @@
 Feature: Pick one Cruise line and Retrieve all the Inclusion points
+  As a User
+  I Want to pick a Cruise Line and Retrieve all the Inclusion Points 
+  So i am now on the Home Page
 
   @regression
   Scenario: Pick one Cruise Line

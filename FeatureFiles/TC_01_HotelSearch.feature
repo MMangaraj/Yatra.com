@@ -1,4 +1,8 @@
 Feature: Display Hotels Name
+  
+  As a User
+  I want to see Top 3 Hotels of the particular loaction
+  so i am now in the HomePage of Yatra.com
 
   @smoke @regression
   Scenario: Display Hotels Name

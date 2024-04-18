@@ -15,7 +15,7 @@ public class HotelPage extends BasePage {
 	WebElement clickonuserrating;
 	
 	@FindBy(xpath = "//div[@class='full filter-wrapper accordion-wrappper accordion-anim-1']//label")
-	private static List<WebElement> checkboxlist;
+	List<WebElement> checkboxlist;
 	
 	@FindBy(xpath = "//h2[@class='hotel-name full fs-18 three-dot']")
 	List<WebElement> hotelnamelist;

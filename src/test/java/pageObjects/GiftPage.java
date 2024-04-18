@@ -26,11 +26,12 @@ public class GiftPage extends BasePage {
 	}
 	@FindBy(xpath = "//span[@class='more-arr']")
 	WebElement more;
-	@FindBy(xpath = "//div[@class=\"frmDiv\"]")
-	WebElement scrolltoform;
 	
 	@FindBy(xpath = "//div[@class='moreOption']//li")
 	List<WebElement> morelist;
+	
+	@FindBy(xpath = "//div[@class=\"frmDiv\"]")
+	WebElement scrolltoform;
 	
 	@FindBy(id = "Name")
 	WebElement name;

@@ -108,4 +108,14 @@ Default suite
 Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
 ===============================================
 ```
+### Project Report 
 
+- Cucumber Report -> YatraProject\reports\myreport.html
+- Cucumber Spark Report -> YatraProject\test-output\SparkReport 18-04-24 15-35-20\Report\CucumberExtentReport.html
+- ScreenShot  -> YatraProject\test-output\SparkReport 18-04-24 15-35-20\Screenshots
+
+### Project Documents
+-Path -> YatraProject\Project Documents
+
+## GitHub Link 
+https://github.com/MMangaraj/Yatra.com.git
